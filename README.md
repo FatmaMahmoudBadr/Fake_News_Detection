@@ -4,26 +4,28 @@ This project aims to build a machine learning model to detect fake news from tex
 ## Project Overview
 The Fake News Detection project follows these key steps:
 
-### Data Collection:
-
-Utilizes a labeled dataset with articles marked as either "fake" or "real."
-
-Data Preprocessing:
-
+### Data Preprocessing:
 Removes noise, such as special characters and stopwords.
-
 Performs text tokenization and lemmatization to normalize the text.
 
-Feature Extraction:
-
+### Feature Extraction:
 Transforms text into numerical features using techniques like TF-IDF or Count Vectorization.
 
-Model Training and Evaluation:
-
+### Model Training and Evaluation:
 Implements machine learning models such as Logistic Regression, Naive Bayes, and Random Forest.
-
 Evaluates models using accuracy, precision, recall, and F1-score metrics.
 
-Prediction:
-
+### Prediction:
 Applies the trained model to classify unseen news articles.
+
+## Key Features
+Data Preprocessing: Text cleaning and normalization.
+
+Feature Engineering: TF-IDF and other vectorization techniques.
+
+Model Implementation: Multiple classification algorithms.
+
+Evaluation: Comprehensive analysis of model performance.
+
+## Results
+The project evaluates various models and identifies the best-performing algorithm for detecting fake news. The results include performance metrics and visualizations for better insights.
